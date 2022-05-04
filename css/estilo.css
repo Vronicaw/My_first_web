@@ -5,11 +5,10 @@
 
 body {
   background-color: #ABB2B9;
-  font-family: varela round;
 }
 
 .container {
-  width: 1000px;
+  width: 1100px;
   background: white;
   margin: 10px auto;
 }
@@ -29,7 +28,7 @@ body {
 .menu {
   float: left;
   padding: 40px;
-  margin-left: 5px;
+  margin-left: 120px;
 }
 
 .opciones li {
@@ -44,5 +43,52 @@ body {
 }
 
 .opciones li a:hover {
-  background: #FF847C;
+  background: #99B898;
+}
+
+.slider {
+  height: 100px;
+}
+
+h1 {
+  color: #FF847C;
+  text-align: center;
+  font-size: 35px;
+  margin: 20px;
+  text-shadow: 1px 1px 2px black;
+}
+/*Estilos para el cuerpo*/
+.cuerpo {
+  overflow: hidden;
+  background: #2A363B;
+}
+
+.caja {
+  float: right;
+  width: 340px;
+  margin: 12px;
+}
+
+.subtitulo {
+  background: #2A363B;
+}
+
+.servicios {
+  color: white;
+  font-size: 25px;
+  text-align: center;
+  background: #99B898;
+  padding: 8px 0;
+}
+
+.efecto:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.contenido {
+  border: 1px solid black;
+  background: white;
+  padding: 10px;
+  text-align: justify;
 }
