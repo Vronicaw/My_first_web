@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #ABB2B9;
+  font-family: varela round;
+}
+
+.container {
+  width: 1000px;
+  background: white;
+  margin: 10px auto;
+}
+
+.superior {
+  background: #2A363B;
+  overflow: hidden;
+}
+
+.logo {
+  float: left;
+  padding: 5px;
+  margin-top: 5px;
+
+}
+/*Estilos para el menú de opciones*/
+.menu {
+  float: left;
+  padding: 40px;
+  margin-left: 5px;
+}
+
+.opciones li {
+  float: left;
+  list-style: none;
+}
+
+.opciones li a {
+  color: white;
+  padding: 20px;
+  text-decoration: none;
+}
+
+.opciones li a:hover {
+  background: #FF847C;
+}
