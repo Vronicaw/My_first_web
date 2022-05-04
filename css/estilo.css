@@ -64,7 +64,7 @@ h1 {
 }
 
 .caja {
-  float: right;
+  float: left;
   width: 340px;
   margin: 12px;
 }
@@ -75,6 +75,9 @@ h1 {
 
 .servicios {
   color: black;
+  border: 1px solid black;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
   font-size: 25px;
   text-align: center;
   background: #99B898;
@@ -88,7 +91,51 @@ h1 {
 
 .contenido {
   border: 1px solid black;
-  background: white;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  height: 80px;
+  background: #EAFFE9;
   padding: 10px;
   text-align: justify;
+}
+
+.boton {
+  padding: 10px;
+  margin: 12px 0;
+  background-color: #99B898;
+  border-radius: 5px;
+}
+
+.boton:hover {
+  background-color: #738C72;
+}
+
+/*Estilos para el pie*/
+.pie {
+  background: #2A363B;
+  overflow: hidden;
+}
+
+.izquierdo {
+  float: left;
+  width: 300px;
+  padding: 20px;
+}
+
+.derecho {
+  float: left;
+  width: 700px;
+  padding: 20px;
+}
+
+.abajo {
+  color: white;
+  font-size: 11px;
+  padding: 8px;
+}
+
+.siguenos {
+  color: white;
+  text-align: center;
+  padding: 15px 0;
 }
